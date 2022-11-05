@@ -1,5 +1,6 @@
 var nodeExternals = require('webpack-node-externals');
 config.target = 'node';
+config.mode = 'production';
 config.externalsPresets = {node: true}
 config.externals = [nodeExternals({modulesDir:__dirname + '\\..\\..\\node_modules'})];
 
@@ -8,3 +9,6 @@ config.externals = [nodeExternals({modulesDir:__dirname + '\\..\\..\\node_module
 
 //minifyを無効にする場合はこうする
 //config.optimization = {minimize: false}
+
+//SourceMapを生成しないようにするにはこうする
+//config.devtool = false;
