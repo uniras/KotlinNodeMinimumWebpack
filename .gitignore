@@ -1,6 +1,7 @@
 .gradle/
 build/
 gradle/
+kotlin-js-store/
 gradlew
 gradlew.bat
 local.properties
