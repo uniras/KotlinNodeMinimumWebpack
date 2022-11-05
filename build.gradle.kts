@@ -7,7 +7,7 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
-    jcenter() // 追加
+    jcenter()
 }
 
 dependencies {
